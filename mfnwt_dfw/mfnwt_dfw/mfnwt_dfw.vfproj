@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{5C8E1E07-A73B-4FEC-9053-D50A31AF89F4}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath="..\..\src_dfw\de47_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gsol7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2bas7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2bcf7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2chd7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2dfw7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2drn7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2drt7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2ets7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2evt7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2fhb7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2gag7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2ghb7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2hfb7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2huf7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2hydmod7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2ibs7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2lak7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2lpf7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2mnw17_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2mnw27_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2mnw2i7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2rch7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2res7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2riv7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2sfr7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2str7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2sub7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2swi27_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2swr7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2swt7.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2upw1.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2uzf1_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwf2wel7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwfsfrmodule_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\gwfuzfmodule_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\hufutl7.f"/>
+		<File RelativePath="..\..\src_dfw\lmt7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\mach_mod.f90"/>
+		<File RelativePath="..\..\src_dfw\MF_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\mhc7.f"/>
+		<File RelativePath="..\..\src_dfw\modules.f90"/>
+		<File RelativePath="..\..\src_dfw\nogmg.f"/>
+		<File RelativePath="..\..\src_dfw\NWT1_gmres.f90"/>
+		<File RelativePath="..\..\src_dfw\NWT1_ilupc_mod.f90"/>
+		<File RelativePath="..\..\src_dfw\NWT1_module.f"/>
+		<File RelativePath="..\..\src_dfw\NWT1_solver.f"/>
+		<File RelativePath="..\..\src_dfw\NWT1_xmd.f"/>
+		<File RelativePath="..\..\src_dfw\NWT1_xmdlib.f"/>
+		<File RelativePath="..\..\src_dfw\obs2bas7.f"/>
+		<File RelativePath="..\..\src_dfw\obs2chd7.f"/>
+		<File RelativePath="..\..\src_dfw\obs2drn7.f"/>
+		<File RelativePath="..\..\src_dfw\obs2ghb7.f"/>
+		<File RelativePath="..\..\src_dfw\obs2riv7.f"/>
+		<File RelativePath="..\..\src_dfw\obs2str7.f"/>
+		<File RelativePath="..\..\src_dfw\parutl7.f"/>
+		<File RelativePath="..\..\src_dfw\pcg7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\sip7_NWT.f"/>
+		<File RelativePath="..\..\src_dfw\utl7.f"/></Filter></Files>
+	<Globals/></VisualStudioProject>
