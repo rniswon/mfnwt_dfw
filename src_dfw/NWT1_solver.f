@@ -672,7 +672,7 @@ C-------STRAIGHT LINE WITH PARABOLIC SMOOTHING
       ELSEIF(X.LT.1.0D0)THEN
         X = 1.0 - X
         Y = - ACOF * x / (EPS * (Ttop - Bbot))
-        Y = 1.0-Y
+        Y = -Y
       ELSE
         Y = 0.0
       ENDIF
