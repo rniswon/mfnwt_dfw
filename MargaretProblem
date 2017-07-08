@@ -1,0 +1,14 @@
+1. The top layer is 1 - 4 m thick sand, with the Ksat set to match the Ksat in the dfw file (this is our perched aquifer).  Ksat should be at least 5 m/d, probably a fair bit higher.
+The bottom layer is a siltstone/sandstone with a Ksat of 0.2 m/d.  It goes down over 30 m, with 3 m of constant head at the bottom.
+
+2. The model is therefore 2 layer, 188 rows (river flowing through the middle in 100x100 m cells from south to north), and 60 columns, which get bigger laterally so that the boundaries are 5 km away.  River geometry is input every 100 m.
+
+3. It runs smoothly if there is no streambed leakage (Ksat in dfw = 0) or no flow in the river.  
+
+4. We tried 3 different Initial heads; see attached pdf.  The first one (A) has a saturated bottom layer, init head in the top layer 0.5 m above base of layer.  B is the same in the top layer, but unsat zone in the bottom layer, C has the initial conditions where we want the model; dry except for the 3 m constant head in the bottom layer.  For all 3, the top layer has no flow BCs all around, and the bottom layer has constant heads 3 m above the base.
+
+5. A and B will run with nonzero streambed Ksat values but the output is all NaNs.  C fails to converge, and has massive problems at a boundary cell (not where the river is).  
+
+6. Haven't modified the files since you put them on github, I don't think.  I had modified the dfw script to produce an output called Eliana.out that outputs stream inflow/outflow at discrete times (ie when the water should arrive at a known point) to make manual calibration easier- that is what timing.in is for.  If the version on github doesn't have that, I can upload it.  
+
+7. All input files attached, with 3 different .ba6 options.
