@@ -1,0 +1,9 @@
+LIST         10 Woodforde_Mar12.list
+BAS6         20 Woodforde_Mar12optc.ba6
+DIS         30 Woodforde_Mar12.dis
+NWT         40 solver.nwt
+OC         50 Woodforde_Mar12.oc
+UPW         60 Woodforde_Mar12.upw
+DFW         70 Woodforde_Mar12.dfw
+DATA(BINARY)         75 Woodforde_Mar12.cbb
+DATA(BINARY)         55 Woodforde_Mar12.hds

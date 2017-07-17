@@ -1,0 +1,4 @@
+# MODFLOW2005 NWT Input File
+1.0E-3 0.05 1000 1.0e-7  2  1 1 SPECIFIED continue 0.90 0.00001 0.000  0.10 0  20 2.0 0.6  linmeth=1 (GMRES); =2 (xmd)   
+2 0 7 0 0 0.0 1 5.0E-3 1.0e-3 100  XMD (faster results--6.7 seconds)
+
