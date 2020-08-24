@@ -1410,14 +1410,14 @@ C--Update heads.
             Hchange(jj) = STRMdfw(15,jj) - hsave 
           END IF
 	  END IF
-        IF ( jj.GT.nadfw ) THEN 
+       ! IF ( jj.GT.nadfw ) THEN 
 	    IF ( ABS(Hchange(jj)).GT.ABS(fhead) ) THEN
             fhead = Hchange(jj)
              ichld = ic
              irhld = ir
              ilhld = il 
           END IF 
-        ENDIF 
+        !ENDIF 
       ENDDO
       END SUBROUTINE GWF2NWT1UPH2
 !
